@@ -1,0 +1,18 @@
+
+How to run the jar file.
+
+1) Ensure that java is installed.
+2) Download the saju.jar file
+3) Open the command prompt/terminal.
+4) type in java -jar "path of saju.jar" (java -jar /Users/sajupt/Desktop/saju.jar)
+5) The text in the homepage and the Info popup should be shown in the terminal/command prompt.
+6) Simulateously an instance of chrome should openup with the url http://hiring-qa.croove.net/.
+7) The random number shown in the http://hiring-qa.croove.net/result page should be the same as the number shown in the terminal.
+8) To generate another number, press 1.
+9) Entering any other digit should redirect back to the home page.
+
+
+
+Known Issues.
+1) Entering text will throw up an error. Haven't handled that exception.
+2) Entering decimal values will also throw up an exception. Haven't handled that.
